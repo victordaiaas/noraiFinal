@@ -1,0 +1,109 @@
+<!-- Apartat de Home o Index. Aquesta secció proporciona una visió general del projecte, incloent-hi 
+informació sobre els seus objectius i propòsits. S'hi pot trobar un resum del 
+projecte i detalls rellevants sobre les seves intencions i metes. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inici</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/Favi.png">
+  <!-- Estils css -->
+  <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+  <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  <!-- Estils js -->
+  <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="loadDarkMode()"> <!-- Carrega el mode fosc quan la pàgina es carrega -->
+  <!-- Barra de navegació superior -->
+  <div class="topnav" id="Controlbarra">
+    <!-- Links -->
+    <a href="index.html" class="active logo"></a>
+    <a href="index.html" class="actual">Inici</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="carta.html">Carta</a>
+    <a href="ComArribar.html">Com Arribar</a>
+    <a href="reserves.html">Reserves</a>
+    <!-- Icona per activar/desactivar el mode fosc -->
+    <!--i id="toggleDarkModeIcon" class="dark-mode-icon fas fa-moon" onclick="toggleDarkMode()"></i-->
+    <!-- Icona del menú mòbil -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleResponsiveNavbar()">&#9776;</a>
+  </div>
+  <!-- Divisió per a l'efecte parallax -->
+  <div class="parallax"></div>
+  <!-- Contenidor principal -->
+  <div class="container">
+    <div class="row2">
+      <!-- Columna amb amplada del 66.66666% -->
+      <div class="column-66">
+        <!--span class="intro-font">Informació</span-->
+        <h1 class="large-font"><b>DESCOBREIX NORAI CDQ</b></h1>
+        <p class="text-font">
+          Som un restaurant de Cadaqués, Girona; una mica apartat del centre, estem al costat de l'hotel Llané Petit. Es tracta d´un lloc tranquil amb un interior cuidat i modern, una agradable terrassa amb unes vistes extraordinàries de la costa brava. 
+        </p>
+      </div>
+      <!-- Columna amb amplada del 33.33333% -->
+      <div class="column-33">
+          <img src="img/norai.jpg" width="335" height="471">
+      </div>
+    </div>
+  </div>
+  <!-- Contenidor principal 2 -->
+  <div class="container2">
+    <!-- Text introductori amb estil de font específic -->
+    <p class="text-font">
+    </p>
+    <div class="caja">
+      <p>El Restaurant Norai, situat molt aprop del cor de Cadaqués, és un dels espais gastronòmics més emblemàtics d’aquesta localitat costanera. Inspirat en la tradició marinera del poble, el Norai combina l’essència de la cuina mediterrània amb un toc modern i creatiu.
+    
+        El restaurant es troba en un entorn privilegiat, a prop del mar, i ofereix un ambient acollidor i autèntic, amb una decoració que evoca l’esperit mariner i la bellesa natural de la Costa Brava. La seva cuina es basa en productes frescos i de proximitat, amb una especial atenció als peixos i mariscs de la zona prioritzant sempre la qualitat del producte.
+        
+        Amb una història arrelada a Cadaqués, el Norai s’ha convertit en un punt de trobada per als amants de la bona gastronomia i per aquells que busquen una experiència culinària única en un dels racons més bonics de Catalunya.</h3></p>
+    </div>
+    <br>
+  
+    
+  <!--Peu de pàgina-->
+  <footer class="footer">
+    <div class="group-1">
+      <div class="angle-box">
+        <figure>
+          <a href="#">
+            <img src="img/logo_URV.png" alt="Logo URV">
+          </a>
+        </figure>
+      </div>
+      <div class="angle-box">
+        <h2>NOSALTRES</h2>
+        <p>Empresa compromesa amb la qualitat i el producte de proximitat</p>
+        <p>Tel.468 978 126 </p> 
+      </div>
+      <div class="angle-box">
+        <h2>SEGUEIX-NOS</h2>
+        <div class="social-angle">
+          <a href="https://www.facebook.com/" class="fa-brands fa-facebook"></a>
+          <a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a>
+          <a href="https://twitter.com/" class="fa-brands fa-x-twitter"></a>
+          <a href="https://www.youtube.com/" class="fa-brands fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="group-2">
+      <div class="group-2">
+        <small>&copy; 2025 <b>Victor Diaz Pico</b></small>
+      </div>
+  </footer>
+  <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retonr a dalt -->
+  <!-- Missatge cookies -->
+  <div id="cookie-message">
+    Aquest lloc web utilitza cookies per millorar l'experiència de l'usuari. En continuar utilitzant 
+    aquest lloc, acceptes el nostre ús de <a href="pol_cookies.html">cookies</a>.
+    <button id="accept-cookie">Acceptar</button>
+    <button id="denegar-cookie">Denegar</button>
+  </div>
+</body>
+</html>
